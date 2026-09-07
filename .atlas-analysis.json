@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "MSK — Mechanical Smart Kallel",
+  "projectDescription": "MSK (Mechanical Smart Kallel) est une société industrielle spécialisée dans la mécanique de précision, la conception, la fabrication de moules et le CFM, proposant des services professionnels clé en main à ses clients.",
   "theme": "willow",
-  "name": "MSK — Mechanical Smart Kallel",
-  "colors": {
-    "primary": "#1A3A5C",
-    "light": "#2D6EA8",
-    "dark": "#0F2336"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#1A3A5C",
+  "lightColor": "#2D6EA8",
+  "darkColor": "#0F2336",
   "navigation": {
     "tabs": [
       {
@@ -61,22 +59,17 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "/contact/informations"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Demander un devis",
-      "href": "/contact/formulaire"
-    }
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://linkedin.com/company/msk-mechanical-smart-kallel"
-    }
-  }
+  "keyFeatures": [
+    "Mécanique de précision industrielle",
+    "Conception et bureau d'études",
+    "Fabrication de moules sur mesure",
+    "CFM (Contrôle, Fabrication, Maintenance)",
+    "Parc machines moderne et équipé",
+    "Contrôle qualité rigoureux",
+    "Équipe expérimentée et certifiée",
+    "Offres de recrutement dynamiques",
+    "Contact et devis en ligne",
+    "Site multilingue Français / Anglais"
+  ],
+  "publicApiSurface": []
 }
